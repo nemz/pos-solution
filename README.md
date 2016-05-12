@@ -15,6 +15,7 @@ En esta etapa se hablara de los siguientes conceptos dentro de cada tecnología
     <li>Views y Partials Views</li>
     <li>Async Methods</li>
   </ul>
+
  - EF
   <ul>
     <li>Data Annotations</li>
@@ -22,6 +23,7 @@ En esta etapa se hablara de los siguientes conceptos dentro de cada tecnología
     <li>Patron Unit Of Repository</li>
     <li>Ejecución de Stored Procedures y Vistas Tipad@s</li>
   </ul>
+
 - GibHub
   <ul>
     <li>Branches</li>
@@ -29,6 +31,7 @@ En esta etapa se hablara de los siguientes conceptos dentro de cada tecnología
     <li>Pull Request</li>
     <li>Fork/Issues</li>
   </ul>
+
 - AngularJS
   <ul>
     <li>Como crear librerias (Utilities)</li>
