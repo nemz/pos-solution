@@ -29,7 +29,7 @@ En esta etapa se hablara de los siguientes conceptos dentro de cada tecnología
     <li>Pull Request</li>
     <li>Fork/Issues</li>
   </ul>
-AngularJS
+- AngularJS
   <ul>
     <li>Como crear librerias (Utilities)</li>
     <li>Controllers</li>
