@@ -1,5 +1,4 @@
 # pos-solution
-<div style="width:100%; color:blue;">
 <h2>Tecnologia</h2>
 </div>
 
