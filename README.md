@@ -1,5 +1,7 @@
 # pos-solution
+<div style="width:100%; background-color:blue;">
 <h2>Tecnologia</h2>
+</div>
 
 - MVC  4++ 
 - EF 5 (Entity Framework)
