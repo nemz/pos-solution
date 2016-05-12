@@ -1,5 +1,5 @@
 # pos-solution
-<div style="width:100%; background-color:blue;">
+<div style="width:100%; color:blue;">
 <h2>Tecnologia</h2>
 </div>
 
@@ -20,6 +20,7 @@ En esta etapa se hablara de los siguientes conceptos dentro de cada tecnología
 
  - EF
   <ul>
+    <li>Code first</li>
     <li>Data Annotations</li>
     <li>Validaciones con Data Annotations</li>
     <li>Patron Unit Of Repository</li>
