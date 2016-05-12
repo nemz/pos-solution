@@ -15,12 +15,17 @@
     <li>Patron Unit Of Repository</li>
     <li>Ejecución de Stored Procedures y Vistas Tipad@s</li>
   </ul>
-- C#
 - git
+  <ul>
+    <li>Branches</li>
+    <li>Commit/Push</li>
+    <li>Pull Request</li>
+    <li>Fork/Issues</li>
+  </ul>
 - AngularJS V1
   <ul>
     <li>Como crear librerias (Utilities)</li>
     <li>Controllers</li>
     <li>Ajax Methods</li>
-    <li></li>
+    <li>Integración con RequireJS</li>
   </ul>
