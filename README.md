@@ -1,5 +1,5 @@
 # pos-solution
-<h1>Tecnologia</h1>
+<h2>Tecnologia</h2>
 
 - MVC  4++ 
 - EF 5 (Entity Framework)
