@@ -15,7 +15,7 @@
     <li>Patron Unit Of Repository</li>
     <li>Ejecución de Stored Procedures y Vistas Tipad@s</li>
   </ul>
-- git
+- GIT
   <ul>
     <li>Branches</li>
     <li>Commit/Push</li>
