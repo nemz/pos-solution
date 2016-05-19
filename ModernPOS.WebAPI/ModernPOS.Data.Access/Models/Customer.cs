@@ -1,13 +1,14 @@
 ﻿//using FluentValidation.Attributes;
+//using ModernPOS.Data.Access.Validators;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
-using ModernPOS.WebAPI.Models.Utils;
+using ModernPOS.Data.Access.Models.Utils;
 
-namespace ModernPOS.WebAPI.Models
+namespace ModernPOS.Data.Access.Models
 {
     
 
