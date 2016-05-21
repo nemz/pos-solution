@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B89BAA67-F881-402D-A5C7-907AFD4E3B3F}</ProjectGuid>
+    <ProjectGuid>{60EB6AA6-C820-44A7-BD13-7435F2556B60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModernPOS.Data.Access</RootNamespace>
-    <AssemblyName>ModernPOS.Data.Access</AssemblyName>
+    <RootNamespace>ModernPOS.Infrastructure.Common</RootNamespace>
+    <AssemblyName>ModernPOS.Infrastructure.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,17 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="FluentValidation">
-      <HintPath>..\packages\FluentValidation.6.2.1.0\lib\Net45\FluentValidation.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,25 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\PosContext.cs" />
+    <Compile Include="DataRepositories\ICustomerRepostory.cs" />
+    <Compile Include="Data\IDataRepository.cs" />
+    <Compile Include="Data\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\CustomerRepository.cs" />
-    <Compile Include="Repositories\RepositoryBase.cs" />
-    <Compile Include="UnitOfWork.cs" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModernPOS.Business.Entities\ModernPOS.Business.Entities.csproj">
       <Project>{d8d7cb72-d57e-4cd2-8b07-2112e26c9023}</Project>
       <Name>ModernPOS.Business.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModernPOS.Infrastructure.Common\ModernPOS.Infrastructure.Common.csproj">
-      <Project>{60eb6aa6-c820-44a7-bd13-7435f2556b60}</Project>
-      <Name>ModernPOS.Infrastructure.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

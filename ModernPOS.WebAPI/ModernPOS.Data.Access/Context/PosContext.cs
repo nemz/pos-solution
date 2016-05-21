@@ -1,4 +1,4 @@
-﻿using ModernPOS.Data.Access.Models;
+﻿using ModernPOS.Business.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
