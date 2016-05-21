@@ -65,6 +65,10 @@
       <Project>{d8d7cb72-d57e-4cd2-8b07-2112e26c9023}</Project>
       <Name>ModernPOS.Business.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ModernPOS.Core\ModernPOS.Core.csproj">
+      <Project>{51e58222-fab9-4f85-af9c-2a8ca9efd1ff}</Project>
+      <Name>ModernPOS.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModernPOS.Infrastructure.Common\ModernPOS.Infrastructure.Common.csproj">
       <Project>{60eb6aa6-c820-44a7-bd13-7435f2556b60}</Project>
       <Name>ModernPOS.Infrastructure.Common</Name>
