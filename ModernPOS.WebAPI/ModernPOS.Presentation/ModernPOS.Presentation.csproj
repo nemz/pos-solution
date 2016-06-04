@@ -40,6 +40,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -307,6 +310,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModernPOS.Business.Services\ModernPOS.Business.Services.csproj">
+      <Project>{ba2ee31e-1f55-497e-95dc-526e68fb6e42}</Project>
+      <Name>ModernPOS.Business.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModernPOS.Core\ModernPOS.Core.csproj">
+      <Project>{51e58222-fab9-4f85-af9c-2a8ca9efd1ff}</Project>
+      <Name>ModernPOS.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
